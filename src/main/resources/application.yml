@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: DemoSpringBootKafkaConnect
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+    topics:
+      topic-test: test
